@@ -4,7 +4,7 @@
 # Settings
 MAKEFILES=Makefile $(wildcard *.mk)
 JEKYLL_VERSION=3.8.5
-JEKYLL_DOCKER_SERVE=/srv/jekyll/jekyll.sh
+JEKYLL_DOCKER_SERVE=/srv/jekyll/bin/jekyll.sh
 PARSER=bin/markdown_ast.rb
 DST=_site
 
